@@ -8,10 +8,10 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 
 const ContactForm = ({ handleSubmit }) => {
-  const [name, setName] = useState("Nina");
-  const [email, setEmail] = useState("nina@email.com");
-  const [phone, setPhone] = useState("081234528341");
-  const [photo, setPhoto] = useState("http://placekitten.com/200");
+  const [name, setName] = useState("Obi");
+  const [email, setEmail] = useState("obi@email.com");
+  const [phone, setPhone] = useState("082231412321");
+  const [photo, setPhoto] = useState("http://placekitten.com/111");
 
   // Form berisi name, phone, email, dan photo url
   // Buatlah state newContact berupa objek sesuai dengan data yang ada
@@ -37,7 +37,7 @@ const ContactForm = ({ handleSubmit }) => {
             <TextField label="Email" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={email} onChange={(e) => setEmail(e.target.value)} />
             <TextField label="Photo" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={photo} onChange={(e) => setPhoto(e.target.value)} />
           </CardContent>
-          <Button type="submit" color="success" sx={{ marginLeft: 3, marginBottom: 2 }}>
+          <Button type="submit" color="success" sx={{ marginLeft: 1, marginBottom: 1 }}>
             ADD NEW
           </Button>
         </Card>
