@@ -28,10 +28,10 @@ const App = () => {
     <div className="App">
       <Header />
       <Box sx={{ display: "flex", width: "100%", padding: "5em 2em" }}>
-        <Box sx={{ width: "50%" }}>
+        <Box sx={{ width: "40%" }}>
           <ContactForm handleSubmit={handleSubmit} />
         </Box>
-        <Box sx={{ width: "50%" }}>
+        <Box sx={{ width: "45%", marginLeft: 10 }}>
           {dataContact.map((data, i) => (
             <Contact key={i} data={data} />
           ))}

@@ -13,7 +13,7 @@ const Contact = ({ data }) => {
       <List sx={{ minWidth: 275, backgroundColor: "#DBF6F0", padding: "5px" }}>
         <ListItem>
           <ListItemAvatar>
-            <Avatar src={data.photo} />
+            <Avatar src={data.photo} sx={{ width: 80, height: 80 }} />
           </ListItemAvatar>
           <Box sx={{ marginLeft: "20px" }}>
             <Typography sx={{ fontWeight: "bold" }}>{data.name}</Typography>
