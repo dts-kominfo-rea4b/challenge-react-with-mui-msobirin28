@@ -33,8 +33,8 @@ const ContactForm = ({ handleSubmit }) => {
         <Card sx={{ minWidth: 275, backgroundColor: "#F3F1EB", textAlign: "left" }}>
           <CardContent sx={{ display: "flex", flexDirection: "column" }}>
             <TextField label="Name" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={name} onChange={(e) => setName(e.target.value)} />
-            <TextField label="Email" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={email} onChange={(e) => setEmail(e.target.value)} />
             <TextField label="Phone" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={phone} onChange={(e) => setPhone(e.target.value)} />
+            <TextField label="Email" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={email} onChange={(e) => setEmail(e.target.value)} />
             <TextField label="Photo" required id="filled-size-normal" variant="filled" sx={{ marginBottom: "1em" }} value={photo} onChange={(e) => setPhoto(e.target.value)} />
           </CardContent>
           <Button type="submit" color="success" sx={{ marginLeft: 3, marginBottom: 2 }}>

@@ -11,12 +11,12 @@ const Contact = ({ data }) => {
   return (
     <div>
       <List sx={{ minWidth: 275, backgroundColor: "#DBF6F0", padding: "5px" }}>
-        <ListItem>
+        <ListItem sx={{ padding: "15px" }}>
           <ListItemAvatar>
             <Avatar src={data.photo} sx={{ width: 80, height: 80 }} />
           </ListItemAvatar>
           <Box sx={{ marginLeft: "20px" }}>
-            <Typography sx={{ fontWeight: "bold" }}>{data.name}</Typography>
+            <Typography sx={{ fontWeight: "bold", fontSize: 18 }}>{data.name}</Typography>
             <Typography sx={{ color: "#6e6c69" }}>{data.phone}</Typography>
             <Typography sx={{ color: "#6e6c69" }}>{data.email}</Typography>
           </Box>

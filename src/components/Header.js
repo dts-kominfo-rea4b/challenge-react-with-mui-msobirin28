@@ -9,10 +9,10 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <Typography variant="h1" component="h2">
+      <Typography variant="h3" component="h4" sx={{ marginTop: "10px" }}>
         Call a Friend
       </Typography>
-      <Divider sx={{ fontSize: "20px", marginTop: "10px" }}>Your friendly contact app</Divider>
+      <Divider sx={{ fontSize: "15px", marginTop: "10px" }}>Your friendly contact app</Divider>
     </div>
   );
 };

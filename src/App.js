@@ -25,7 +25,7 @@ const App = () => {
     setContact([...dataContact, newContact]);
   };
   return (
-    <div className="App">
+    <div className="App" sx={{ backgroundColor: "#2596be" }}>
       <Header />
       <Box sx={{ display: "flex", width: "100%", padding: "5em 2em" }}>
         <Box sx={{ width: "40%" }}>
